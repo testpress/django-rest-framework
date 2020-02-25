@@ -67,8 +67,8 @@ setup(
     description='Web APIs for Django, made easy.',
     author='Tom Christie',
     author_email='tom@tomchristie.com',  # SEE NOTE BELOW (*)
-    packages=get_packages('rest_framework'),
-    package_data=get_package_data('rest_framework'),
+    packages=get_packages('rest_framework3'),
+    package_data=get_package_data('rest_framework3'),
     install_requires=[],
     zip_safe=False,
     classifiers=[
