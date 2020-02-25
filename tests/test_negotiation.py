@@ -1,9 +1,9 @@
 from __future__ import unicode_literals
 from django.test import TestCase
-from rest_framework.negotiation import DefaultContentNegotiation
-from rest_framework.request import Request
-from rest_framework.renderers import BaseRenderer
-from rest_framework.test import APIRequestFactory
+from rest_framework3.negotiation import DefaultContentNegotiation
+from rest_framework3.request import Request
+from rest_framework3.renderers import BaseRenderer
+from rest_framework3.test import APIRequestFactory
 
 
 factory = APIRequestFactory()

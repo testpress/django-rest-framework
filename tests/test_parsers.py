@@ -6,10 +6,10 @@ from django.core.files.uploadhandler import MemoryFileUploadHandler
 from django.test import TestCase
 from django.utils import unittest
 from django.utils.six.moves import StringIO
-from rest_framework.compat import etree
-from rest_framework.exceptions import ParseError
-from rest_framework.parsers import FormParser, FileUploadParser
-from rest_framework.parsers import XMLParser
+from rest_framework3.compat import etree
+from rest_framework3.exceptions import ParseError
+from rest_framework3.parsers import FormParser, FileUploadParser
+from rest_framework3.parsers import XMLParser
 import datetime
 
 

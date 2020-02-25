@@ -1,4 +1,4 @@
-from rest_framework import serializers
+from rest_framework3 import serializers
 from django.utils.datastructures import MultiValueDict
 
 

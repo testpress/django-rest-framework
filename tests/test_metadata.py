@@ -1,8 +1,8 @@
 from __future__ import unicode_literals
 
-from rest_framework import exceptions, serializers, views
-from rest_framework.request import Request
-from rest_framework.test import APIRequestFactory
+from rest_framework3 import exceptions, serializers, views
+from rest_framework3.request import Request
+from rest_framework3.test import APIRequestFactory
 import pytest
 
 request = Request(APIRequestFactory().options('/'))

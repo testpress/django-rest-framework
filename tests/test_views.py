@@ -3,12 +3,12 @@ from __future__ import unicode_literals
 import sys
 import copy
 from django.test import TestCase
-from rest_framework import status
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
-from rest_framework.settings import api_settings
-from rest_framework.test import APIRequestFactory
-from rest_framework.views import APIView
+from rest_framework3 import status
+from rest_framework3.decorators import api_view
+from rest_framework3.response import Response
+from rest_framework3.settings import api_settings
+from rest_framework3.test import APIRequestFactory
+from rest_framework3.views import APIView
 
 factory = APIRequestFactory()
 

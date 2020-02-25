@@ -65,7 +65,7 @@ Now edit the `example/urls.py` module in your project:
 ```python
 from django.conf.urls import url, include
 from django.contrib.auth.models import User
-from rest_framework import serializers, viewsets, routers
+from rest_framework3 import serializers, viewsets, routers
 
 # Serializers define the API representation.
 class UserSerializer(serializers.HyperlinkedModelSerializer):
