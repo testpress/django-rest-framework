@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 from django.test import TestCase
 from rest_framework3.test import APIRequestFactory
-from rest_framework3.templatetags.rest_framework import add_query_param, urlize_quoted_links
+from rest_framework3.templatetags.rest_framework3 import add_query_param, urlize_quoted_links
 
 
 factory = APIRequestFactory()
