@@ -204,7 +204,7 @@ api_settings = APISettings(USER_SETTINGS, DEFAULTS, IMPORT_STRINGS)
 def reload_api_settings(*args, **kwargs):
     global api_settings
     setting, value = kwargs['setting'], kwargs['value']
-    if setting == 'REST_FRAMEWORK':
+    if setting == 'REST_FRAMEWORK3':
         api_settings = APISettings(value, DEFAULTS, IMPORT_STRINGS)
 
 
