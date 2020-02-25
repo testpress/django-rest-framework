@@ -350,7 +350,7 @@ class HTMLFormRenderer(BaseRenderer):
     media_type = 'text/html'
     format = 'form'
     charset = 'utf-8'
-    template_pack = 'rest_framework/horizontal/'
+    template_pack = 'rest_framework3/horizontal/'
     base_template = 'form.html'
 
     default_style = ClassLookupDict({
@@ -468,7 +468,7 @@ class BrowsableAPIRenderer(BaseRenderer):
     """
     media_type = 'text/html'
     format = 'api'
-    template = 'rest_framework/api.html'
+    template = 'rest_framework3/api.html'
     charset = 'utf-8'
     form_renderer_class = HTMLFormRenderer
 
@@ -585,7 +585,7 @@ class BrowsableAPIRenderer(BaseRenderer):
                 self.accepted_media_type,
                 dict(
                     list(self.renderer_context.items()) +
-                    [('template', 'rest_framework/api_form.html')]
+                    [('template', 'rest_framework3/api_form.html')]
                 )
             )
 
